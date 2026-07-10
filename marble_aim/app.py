@@ -881,7 +881,7 @@ class ApplicationController(QObject):
         self.status = (
             "高级模拟已开启：正在重新识别血量和弹珠数量"
             if enabled
-            else "高级模拟已关闭：已恢复 v4 标准单球规划"
+            else "高级模拟已关闭：已恢复轻量单球规划"
         )
 
     def open_settings(self) -> None:
