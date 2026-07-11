@@ -4,7 +4,6 @@ import argparse
 from pathlib import Path
 
 import cv2
-import numpy as np
 
 from marble_aim.config import VisionConfig
 from marble_aim.vision import BoardDetector
